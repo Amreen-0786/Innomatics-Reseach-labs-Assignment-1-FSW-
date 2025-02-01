@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 Finance Tracker 💸</title>
+</head>
+
+<body>
+    <center>
+    <header>
+         <h1>💰 Personal Finance Dashboard 📊</h1>
+        <nav>
+            <a href="#entry">➕ New Entry</a> | 
+            <a href="#overview">📜 Budget Report</a>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>🧐 Know Where Your Money Goes!</h2>
+        <p>Managing finances made easy. Track your income & expenses today.</p>
+        <blockquote>"Beware of little expenses. A small leak will sink a great ship." - Benjamin Franklin</blockquote>
+    </section>
+    
+    <hr>
+    
+    <section id="entry">
+        <h2>📥 Log a Transaction</h2>
+        <form>
+            <label for="amt">💲 Amount:</label>
+            <input type="number" id="amt" required><br><br>
+            
+            <label for="cat">📌 Category:</label>
+            <select id="cat">
+                <option value="Groceries">🛒 Groceries</option>
+                <option value="Travel">✈️ Travel</option>
+                <option value="Fun">🎮 Entertainment</option>
+                <option value="Work">💼 Salary</option>
+                <option value="Bank">🏦 Investments</option>
+                <option value="Bills">💳 Bills</option>
+            </select><br><br>
+            
+            <label for="note">📝 Description:</label>
+            <input type="text" id="note" required><br><br>
+            
+            <label for="date">📅 When?</label>
+            <input type="date" id="date" required><br><br>
+            
+            <label>💡 Select Type:</label>
+            <input type="radio" name="money-type" value="Income"> 💰 Earnings
+            <input type="radio" name="money-type" value="Expense"> 💸 Spending<br><br>
+            
+            <button type="submit">📌 Add Entry</button>
+        </form>
+    </section>
+    
+    <hr>
+    
+    <section id="overview">
+        <h2>📜 Budget Insights</h2>
+        <table border="1">
+            <tr>
+                <th>📌 Category</th>
+                <th>💲 Amount</th>
+                <th>📝 Description</th>
+                <th>📅 Date</th>
+                <th>🔄 Manage</th>
+            </tr>
+            <tr>
+                <td>🛒 Groceries</td>
+                <td>$100</td>
+                <td>Supermarket Shopping</td>
+                <td>2025-02-03</td>
+                <td><button>✏️ Modify</button> <button>🗑️ Delete</button></td>
+            </tr>
+            <tr>
+                <td>💼 Salary</td>
+                <td>$2800</td>
+                <td>Job Payment</td>
+                <td>2025-02-01</td>
+                <td><button>✏️ Modify</button> <button>🗑️ Delete</button></td>
+            </tr>
+        </table>
+    </section>
+    
+    <hr>
+    
+    <footer>
+        <p>📊 Finance Tracker | Version 1.0 | Made By "Amreen" </p>
+    </footer>
+</center>
+</body>
+</html>
