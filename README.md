@@ -21,8 +21,8 @@ The goal of this project was to understand how to structure a basic webpage usin
 ## 📂 **Project Structure**
 ```bash
 /
-├── index.html        # Main HTML file for the project
-├── images
-│   └── screenshot.png # (Optional) Project screenshot image
+├── html_code.html       # Main HTML file for the project
+├── Results
+│   └── Html_result.png # (Optional) Project screenshot image
 ├── README.md         # Project documentation
 
